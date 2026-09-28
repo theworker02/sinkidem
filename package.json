@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sinkidem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sink validation gates for idem inputs before they hit prod.",
+  "bin": {
+    "sinkidem": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sinkidem.git"
+  },
+  "homepage": "https://theworker02.github.io/sinkidem/",
+  "keywords": [
+    "sink",
+    "idem",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
